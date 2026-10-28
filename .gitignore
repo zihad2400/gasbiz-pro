@@ -39,3 +39,27 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# --- GasBiz Pro additions ---
+# Environment files (secrets)
+.env
+.env.local
+.env.*.local
+
+# Uploads (user files / attachments)
+/public/uploads/*
+
+# Database dumps / backups
+*.dump
+*.bson
+*.gz
+/backups
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
