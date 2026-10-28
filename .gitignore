@@ -63,3 +63,6 @@ next-env.d.ts
 # Logs
 *.log
 npm-debug.log*
+
+# Allow the safe template (contains NO secrets) to be committed
+!.env.example
