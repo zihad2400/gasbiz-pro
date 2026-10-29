@@ -6,9 +6,14 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "db:init": "node scripts/init-db.js",
+    "setup:admin": "node scripts/setup-admin.js"
   },
   "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "lucide-react": "^1.63.0",
+    "mongodb": "^6.21.0",
     "next": "16.4.3",
     "react": "19.3.0",
     "react-dom": "19.3.0"
